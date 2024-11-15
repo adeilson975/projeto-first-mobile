@@ -1,13 +1,17 @@
-* {
-    margin: 0;
+*{
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-.footer {
-    background-color: #004274;
-    padding: 50px;
+.footer{
+    position: absolute;
+    bottom: 0%;
+    width:100% ;
+    background-color: #4682B4;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 40px;
+    border: 1px solid #fff;
+   
 }

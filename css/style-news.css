@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.quadrinhos,.filmes {
+    display: flex;
+    flex-direction: column;
+}
+.quadrinhos > span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.quadrinhos > img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.quadrinhos > p {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.filmes > span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.filmes > img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.filmes > p {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}

@@ -3,26 +3,13 @@
     padding: 0;
     box-sizing: 0;
 }
-.content {
-    height: 100hv;
+.content-home {
+    background-color: #3498db;
+    height: 500px;
     width: 100%;
+    border: 1px solid #fff;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 2px solid #fff;
-    
-    
-    
 }
-.minha-foto > img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border-radius: 10px;
-}
-.apresentacao {
-    text-align: justify;
-    padding-left: 60px;
-    padding-right:60px;
-    padding-bottom: 20px;
-}
+

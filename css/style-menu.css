@@ -17,7 +17,7 @@ nav {
     height: 70px;
     margin-inline: auto; /*shorthand :representa uma margem left e right*/
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     align-items: center;
 
 }

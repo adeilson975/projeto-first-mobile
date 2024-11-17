@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-.quadrinhos,.filmes {
+.quadrinhos,.filmes,.musicas,.games {
     display: flex;
     flex-direction: column;
 }
@@ -30,6 +30,35 @@
     margin-left: 10px;
 }
 .filmes > a {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.musicas > span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.musicas > img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.musicas > a {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.games > span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.games > img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.games > a {
     margin-top: 10px;
     margin-left: 10px;
     text-align: justify;

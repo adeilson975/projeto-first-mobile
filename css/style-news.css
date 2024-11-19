@@ -3,7 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-.quadrinhos,.filmes,.musicas,.games {
+div > a {
+    max-width:400px;
+    background-color: gainsboro;
+    color:#111
+}
+.titulo {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.quadrinhos,.filmes,.musicas,.games,.series,.animacao {
     display: flex;
     flex-direction: column;
 }
@@ -64,3 +73,5 @@
     text-align: justify;
     padding-right: 10px;
 }
+
+

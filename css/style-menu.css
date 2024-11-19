@@ -11,14 +11,17 @@ a {
 header {
     background-color:#004274;
     padding-inline: 16px;
+    border: 1px solid #fff;
+
 }
 nav {
     max-width: 1280px;
-    height: 70px;
+    height: 65px;
     margin-inline: auto; /*shorthand :representa uma margem left e right*/
     display: flex;
     justify-content:space-between;
     align-items: center;
+ 
 
 }
 

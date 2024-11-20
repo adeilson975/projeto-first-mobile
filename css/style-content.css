@@ -4,17 +4,19 @@
     box-sizing: 0;
 }
 .content-home {
-    background-color: #3498db;
-    height:90vh;
+    /*background-color: #3498db;*/
+    background-image: url('../img/papel-parede-gamer5.png');
+    background-size:auto;
+     height:95vh;
     width: 100%;
     border: 1px solid #fff;
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 .content-home > img {
     border-radius: 10px;
-    margin-top: 50px;
     border: 2px solid #fff;
 }
 

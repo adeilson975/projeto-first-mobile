@@ -3,10 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
-div > a {
+
+@font-face {
+    font-family: SuperVibes;
+    src: url('../font/Super\ Vibes\ -\ \(Demo\)\ hanscostudio.com.ttf');
+}
+.titulo > h1 {
+    font-family:SuperVibes ;
+    margin-bottom: 40px;
+}
+span {
+    font-size: 20px;
+    font-weight: bold;
+
+}
+div > a { 
     max-width:400px;
-    background-color: gainsboro;
+    background-color:#DCDCDC;
     color:#111
+}
+div > a:hover{
+    background-color:#111;
+    color: #fff;
 }
 .titulo {
     margin-top: 10px;
@@ -15,6 +33,10 @@ div > a {
 .quadrinhos,.filmes,.musicas,.games,.series,.animacao {
     display: flex;
     flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.quadrinhos {
+    margin-bottom:40px;
 }
 .quadrinhos > span {
     margin-top: 10px;
@@ -30,6 +52,9 @@ div > a {
     text-align: justify;
     padding-right: 10px;
 }
+.filmes{
+    margin-bottom: 40px;
+}
 .filmes > span {
     margin-top: 10px;
     margin-left: 10px;
@@ -43,6 +68,9 @@ div > a {
     margin-left: 10px;
     text-align: justify;
     padding-right: 10px;
+}
+.musicas {
+    margin-bottom: 40px;
 }
 .musicas > span {
     margin-top: 10px;
@@ -58,6 +86,9 @@ div > a {
     text-align: justify;
     padding-right: 10px;
 }
+.games{
+    margin-bottom: 40px;
+}
 
 .games > span {
     margin-top: 10px;
@@ -68,6 +99,40 @@ div > a {
     margin-left: 10px;
 }
 .games > a {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.series {
+    margin-bottom: 40px;
+}
+.series > span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.series > img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.series > a {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.animacao {
+    margin-bottom: 40px;
+}
+.animacao > span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.animacao > img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.animacao > a {
     margin-top: 10px;
     margin-left: 10px;
     text-align: justify;

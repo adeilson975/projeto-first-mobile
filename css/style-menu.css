@@ -16,7 +16,7 @@ header {
 }
 nav {
     max-width: 1280px;
-    height: 65px;
+    height: 50px;
     margin-inline: auto; /*shorthand :representa uma margem left e right*/
     display: flex;
     justify-content:space-between;
@@ -38,6 +38,7 @@ nav {
 .content {
 
     background-color: #3498db;
+    
 }
 .hamburger {
     border: none;

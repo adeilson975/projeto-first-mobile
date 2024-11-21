@@ -30,10 +30,27 @@ div > a:hover{
     margin-top: 10px;
     margin-left: 10px;
 }
-.quadrinhos,.filmes,.musicas,.games,.series,.animacao {
+.quadrinhos,.filmes,.musicas,.games,.series,.animacao,.tecnologia {
     display: flex;
     flex-direction: column;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.tecnologia {
+    margin-bottom:40px;
+}
+.tecnologia > span {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tecnologia > img {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.tecnologia > a {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: justify;
+    padding-right: 10px;
 }
 .quadrinhos {
     margin-bottom:40px;

@@ -9,7 +9,7 @@ a {
     text-decoration: none;
 }
 header {
-    background-color:#004274;
+    background-image: url('../img/papel-parede-gamer.png');/*#004274*/
     padding-inline: 16px;
     border: 1px solid #fff;
 
@@ -29,17 +29,14 @@ nav {
     display: flex;
     gap: 2rem;
     list-style: none;
+    
 }
 .nav-list a {
     font-size: 1rem;
     color:#fff;
     padding-block:1rem; /*shorthand - representa a top e botton*/;
 }
-.content {
 
-    background-color: #3498db;
-    
-}
 .hamburger {
     border: none;
     background: none;
@@ -70,7 +67,8 @@ nav {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: #004274;
+        background-image: url('../img/papel-parede-gamer.png');/*0042274*/
+        background-size: contain;
         clip-path: circle(100px at 90% -15%);
         transition: 1s ease-out;
 
@@ -86,7 +84,6 @@ nav {
         opacity: 0;
 
     }
-   
     .nav-list li :nth-child(1)a {
         transition: 0.5s 0.2s;
     }

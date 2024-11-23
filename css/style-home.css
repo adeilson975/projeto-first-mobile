@@ -5,20 +5,22 @@
 }
 .content-home {
     /*background-color: #3498db;*/
-    background-image: url('../img/papel-parede-gamer2.png');
-    background-size:contain;
-    height:95vh;
+    background-image: url('../img/papel-parede-gamer5.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:90vh;
     width: 100%;
-    border: 1px solid #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
+
     
     
 }
 .content-home > img {
     border-radius: 10px;
     border: 2px solid #fff;
+    margin-top:20px;
+
    
 }
 

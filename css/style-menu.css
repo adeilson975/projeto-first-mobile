@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    
 
 }
 
@@ -9,14 +11,17 @@ a {
     text-decoration: none;
 }
 header {
-    background-image: url('../img/papel-parede-gamer.png');
+    background-image: url('../img/papel-parede-gamer5.png');
     padding-inline: 16px;
-    border: 1px solid #fff;
+    border-bottom: 0.5px solid #fff;
+    
+    
+
 
 }
 nav {
     max-width: 1280px;
-    height: 50px;
+    height: 10vh;
     margin-inline: auto; /*shorthand :representa uma margem left e right*/
     display: flex;
     justify-content:space-between;
@@ -33,7 +38,8 @@ nav {
 }
 .nav-list a {
     font-size: 1rem;
-    color:#fff;
+    color:gold;
+    font-weight: bold;
     padding-block:1rem; /*shorthand - representa a top e botton*/;
 }
 
@@ -67,11 +73,10 @@ nav {
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-image: url('../img/papel-parede-gamer.png');/*0042274*/
+        background-image: url('../img/papel-parede-gamer7.png');
         background-size: contain;
         clip-path: circle(100px at 90% -15%);
         transition: 1s ease-out;
-
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
@@ -79,6 +84,7 @@ nav {
         pointer-events: none;
     
     }
+ 
     .nav-list a {
         font-size: 24px;
         opacity: 0;
